@@ -1,0 +1,16 @@
+client: aws
+region: eu-west-3
+domain: karmab.sysdeseng.com
+ctlplanes: 3
+workers: 2
+flavor: m5.8xlarge
+version: stable
+network: myvpc-eu-subnet4
+cloud_internal: true
+
+# MULTINICS
+# vmrules:
+# - .*-worker-.*:
+#   nets:
+#   - myvpc-eu-subnet4
+#   - myvpc-eu-subnet22

@@ -1,0 +1,16 @@
+client: aws
+region: us-east-2
+domain: karmab.sysdeseng.com
+ctlplanes: 3
+workers: 2
+flavor: m5.8xlarge
+version: stable
+network: myvpc-us-subnet2
+cloud_internal: true
+
+# MULTINICS
+vmrules:
+- .*-worker-.*:
+    nets:
+    - myvpc-us-subnet2
+    - myvpc-us-subnet22
