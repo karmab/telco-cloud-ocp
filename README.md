@@ -165,7 +165,7 @@ kcli create cluster openshift --pf parameters_eu.yml cluster-eu-0
 The us-east cluster can be deployed with
 
 ```
-kcli create cluster openshift --pf parameters_eu.yml cluster-eu-0
+kcli create cluster openshift --pf parameters_us.yml cluster-us-0
 ```
 
 

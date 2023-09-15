@@ -13,4 +13,4 @@ cloud_internal: true
 # - .*-worker-.*:
 #   nets:
 #   - myvpc-eu-subnet4
-#   - myvpc-eu-subnet22
+#   - myvpc-eu-subnet3
